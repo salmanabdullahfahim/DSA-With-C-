@@ -1,10 +1,12 @@
 // Operators
-// 1. Arithmetic - +, -, *, /, %, ++, --
+// 1. Arithmetic - +, -, *, /, %,
 //  -- int/int = int, float/float = float, int/float = float, float/int = float
 
 // 2. Relational - >, <, >=, <=, ==, !=
 
 // 3. Logical - &&, ||, !
+
+// 4. Unary - ++, --
 
 
 #include<iostream>
