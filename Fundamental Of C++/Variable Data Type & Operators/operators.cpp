@@ -4,6 +4,8 @@
 
 // 2. Relational - >, <, >=, <=, ==, !=
 
+// 3. Logical - &&, ||, !
+
 
 #include<iostream>
 using namespace std;
@@ -28,6 +30,13 @@ int main(){
     cout << (a <= b) << endl;
     cout << (a == b) << endl;
     cout << (a != b) << endl;
-    
+
+
+    // Logical
+
+    cout << ((a > b) && (a < b)) << endl;
+    cout << ((a > b) || (a < b)) << endl;
+    cout << (!(a > b)) << endl;
+
     return 0;
 }
